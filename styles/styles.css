@@ -93,6 +93,13 @@ section {
   justify-content: center;
   transform: translateY(-50%);
 }
+.controlls .active-btn {
+  background-color: var(--color-secondary) !important;
+  transition: all 0.4s ease-in-out;
+}
+.controlls .active-btn i {
+  color: var(--color-white) !important;
+}
 .controlls .control {
   padding: 1rem;
   cursor: pointer;
